@@ -1,6 +1,5 @@
 #### Adapted from http://randyzwitch.com/r-google-analytics-api/
-#### Connecting to Google Analytics API via R
-#### Uses OAuth 2.0
+#### Connecting to Google Analytics API via R#### Uses OAuth 2.0
 #### https://developers.google.com/analytics/devguides/reporting/core/v3/ for documentation
 
 # Install devtools package & rga - This is only done one time
@@ -15,7 +14,7 @@ library(rga)
 library(lubridate)
 # library(ProjectTemplate)
 library("ggplot2")
-setwd('C:/Users/m.parzakonis/Google Drive/MyCodeRants/GA/src')
+
 # Authenticating to GA API. Go to https://code.google.com/apis/console/ and create
 # an API application.  Don't need to worry about the client id and shared secret for
 # this R code, it is not needed
